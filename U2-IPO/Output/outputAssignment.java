@@ -13,7 +13,7 @@ public class OutputAssignment {
     // Print each of the following designs below. 
     System.out.println("\n3) Shapes");
     System.out.println("\ta) Parallelogram");
-    System.out.println("\t\t\t   PARALLELOG\n\t\t\t  A        R\n\t\t\t R       A\n\t\t\tALLELOGRAM\n");
+    System.out.println("\t\t\t   PARALLELOG\n\t\t\t  A        R\n\t\t\t R        A\n\t\t\tALLELOGRAM\n");
     System.out.println("\tb) Trapezoid");
     System.out.println("\t\t\t  APEZO\n\t\t\t R     I\n\t\t\tTRAPEZOID\n");
     System.out.println("\tc) Rectangle");
