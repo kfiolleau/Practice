@@ -1,0 +1,68 @@
+import java.util.Random;
+import java.util.*;
+
+
+public class ArrayPractice {
+
+	public static void main(String args[]){
+		int array1[] = {5,10,15};
+		
+		printArray(array1);
+		
+		duplicateArray(array1);
+		
+		
+		
+		printArray(randomInt(5,12,3));
+
+		
+		
+	}
+	
+	public static void printArray(int array[]){
+		
+		for(int x=0; x<array.length;x++){
+			System.out.println(array[x]);
+			
+		}
+		
+		
+		
+	}
+	
+	
+	public static int[] duplicateArray(int array[]){
+		
+		
+		int[] duplicate = new int[array.length];
+		
+		
+		for(int x=0;x<array.length;x++){
+			
+			duplicate[x] = array[x];
+			
+			
+		}
+		
+		return duplicate;
+	}
+	
+	public static int[] randomInt(int min, int max, int size){
+		
+		int[] randomArray = new int[size];
+		
+		Random rand = new Random();
+		
+		for(int x = 0; x<size; x++){
+			
+			randomArray[x] = rand.nextInt((max - min))+min;
+			
+		}
+		
+		return randomArray;
+		
+	}
+	
+	
+	
+}
